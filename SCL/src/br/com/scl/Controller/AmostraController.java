@@ -4,5 +4,5 @@ import br.com.scl.DA.DAAmostra;
 
 public class AmostraController extends DAAmostra{
 
-	//teste com github
+
 }
