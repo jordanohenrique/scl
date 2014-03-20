@@ -1,0 +1,177 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/textViewCod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/codigo" />
+        
+        <EditText
+            android:id="@+id/edtCodigo"
+            android:layout_width="108dp"
+            android:layout_height="fill_parent" />
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+        
+
+    	<EditText
+    	    android:id="@+id/edtNome"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="Digite nome produtor" >
+
+        <requestFocus />
+    </EditText>
+    
+        <TextView
+            android:id="@+id/textViewCpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpf" />
+
+    	<EditText
+    	    android:id="@+id/edtCPF"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="99999999999" />
+
+        <TextView
+            android:id="@+id/textViewInsEstadual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insestadual" />
+
+    	<EditText
+    	    android:id="@+id/edtInsEstadual"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logradouro" />
+
+    	<EditText
+    	    android:id="@+id/edtLogradouro"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/textViewNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numero" />
+
+    	<EditText
+    	    android:id="@+id/edtNumero"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/textViewBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bairro" />
+
+    	<EditText
+    	    android:id="@+id/edtBairro"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="Digite nome produtor" />
+
+    	<TextView
+    	    android:id="@+id/textViewCidade"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/cidade" />
+
+    	<EditText
+    	    android:id="@+id/edtCidade"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="Digite nome produtor" />
+    	
+    	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewUf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UF" />
+
+        <EditText
+            android:id="@+id/edtUf"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43" />
+
+        <TextView
+            android:id="@+id/textViewCep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cep" />
+
+        <EditText
+            android:id="@+id/edtCep"
+            android:layout_width="126dp"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewFone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foneresidencial" />
+
+    	<EditText
+    	    android:id="@+id/edtFone"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="(xx)xxxx-xxxx" />
+
+        <TextView
+            android:id="@+id/textViewCelular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/celular" />
+
+    	<EditText
+    	    android:id="@+id/edtCelular"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:hint="(xx)xxxx-xxxx" />
+    	
+    	<Button
+    	    android:id="@+id/btnSalvar"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/salvar" />
+
+    	<Button
+    	    android:id="@+id/btnPesquisar"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/pesquisar" />
+
+    </LinearLayout>
+    
+</ScrollView>

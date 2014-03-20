@@ -1,0 +1,81 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logocoopersucesso" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/LawnGreen"
+        android:gravity="center_horizontal"
+        android:text="@string/scl"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TableRow >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+        
+            <requestFocus />
+        </EditText>
+        
+    </TableRow>
+
+    <TableRow >
+        
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/senha"
+             android:textStyle="bold" />
+
+         <EditText
+             android:id="@+id/edSenha"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:inputType="textPassword" />
+        
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/btLogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="97dp"
+            android:src="@drawable/check" />
+
+        <ImageButton
+            android:id="@+id/btsair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btLogar"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:src="@drawable/doorin" />
+
+    </RelativeLayout>
+    
+</TableLayout>

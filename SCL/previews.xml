@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="sistem2.informatica.sclrotas.MenuSCLActivity"
+        config="layout-ldltr-sw360dp-w360dp-h640dp-normal-long-port-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x720-v19"
+        device="Galaxy Nexus"
+        devicestate="Portrait"
+        target="Android 4.4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Config2"
+        activity="sistem2.informatica.sclrotas.MenuSCLActivity"
+        config="layout-ldltr-sw600dp-w600dp-h1024dp-large-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1024x600-v19"
+        device="7&quot; WSVGA (Tablet)"
+        devicestate="Portrait"
+        target="Android 4.4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Config3"
+        activity="sistem2.informatica.sclrotas.MenuSCLActivity"
+        config="layout-ldltr-sw600dp-w1024dp-h600dp-large-long-land-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1024x600-v19"
+        device="7&quot; WSVGA (Tablet)"
+        devicestate="Landscape"
+        target="Android 4.4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Config4"
+        activity="sistem2.informatica.sclrotas.MenuSCLActivity"
+        config="layout-ldltr-sw800dp-w800dp-h1280dp-xlarge-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v19"
+        device="10.1&quot; WXGA (Tablet)"
+        devicestate="Portrait"
+        target="Android 4.4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Config5"
+        activity="sistem2.informatica.sclrotas.MenuSCLActivity"
+        config="layout-ldltr-sw800dp-w1280dp-h800dp-xlarge-long-land-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v19"
+        device="10.1&quot; WXGA (Tablet)"
+        devicestate="Landscape"
+        target="Android 4.4.2"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>
